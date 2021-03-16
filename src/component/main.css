@@ -1,0 +1,126 @@
+
+body{
+    background-image: url(images/carZC.jpg);
+    background-size:cover;
+    color: #666666;
+    background-position-y: -160px;
+    font-size: 13px;
+    font-family: poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    opacity: 1;
+}
+
+
+.banner-main {
+    position: relative;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+div {
+    display: block;
+}
+.container {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-bg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    padding: 0;
+    left: 0;
+    text-align: center;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.main-form h1 {
+    float: left;
+    margin-top: -50px;
+    padding: 10px 28px;
+    margin-left: -35px;
+    color: #0a4668;
+    font-size: 25px;
+    font-weight: 600;
+}
+h1{
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    font-family: inherit;
+    padding: 0 0 10px 0;
+    line-height: normal;
+    color: #111111;
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 30px 5px 0px 5px;
+}
+.col-xl-4, .col-lg-4, .col-md-4 ,.col-sm-6 ,.col-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main-form {
+    background: transparent;
+    padding: 100px 100px;
+}
+.main-form a {
+    background: #ee580f;
+    color: #ffffff;
+    padding: 8px 30px 8px 30px;
+    float: left;
+    font-size: 20px;
+    border: solid #ee580f 1px;
+    border-radius: 30px;
+    margin: 15px 0px 60px 0px;
+}
+form {
+    display:block;
+    margin-top: 0em;
+}
+.form-control {
+    border: #c2c4c4 solid 1px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+a, .btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+label {
+    float : left;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: default;
+    color: white;
+    font-size: 20px;
+}
+
