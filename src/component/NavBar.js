@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
-import { ButtonSignup } from './ButtonSignup';
+// import { ButtonSignup } from './ButtonSignup';
 import { ButtonLogin } from './ButtonLogin';
 
 import './NavBar.css';
@@ -58,14 +58,14 @@ return(
                              </Link>
                          </li>
                          
-                         <li className='nav-item'>
+                         {/* <li className='nav-item'>
                              <Link to='/Signup' className='nav-links-mobile' onClick={closeMenu}>
                                  Sign Up
                              </Link>
-                         </li>
+                         </li> */}
                      </ul>
 
-                     {button && <ButtonSignup buttonStyle='btn--outline'>SIGN IN </ButtonSignup>}
+                     {/* {button && <ButtonSignup buttonStyle='btn--outline'>SIGN IN </ButtonSignup>} */}
 
 
                 

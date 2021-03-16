@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary:#fff;
 }
 
@@ -26,7 +26,6 @@
 }
 
 .btn--medium{
-    padding: 8px 20px;
     font-size:20px;
 }
 .btn--medium:hover,
@@ -34,4 +33,4 @@
     background: #fff;
     color: #000000;
     transition: all 0.3s ease-out;
-}
+} */
